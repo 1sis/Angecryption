@@ -14,7 +14,7 @@ git clone https://github.com/IsisTM/Angecryption
 
 cd Angecryption
 
-pip3 install -r requirements.txt
+pip3 install -r requirement.txt
 ```
 
 ### __Example__
