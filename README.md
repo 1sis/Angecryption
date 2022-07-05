@@ -10,7 +10,7 @@ This tool allows to change the format (pdf, png, jpg ..) with an **decryption** 
 ### __Installation__
 
 ```
-git clone https://github.com/IsisTM/Angecryption
+git clone https://github.com/1sis/Angecryption
 
 cd Angecryption
 
