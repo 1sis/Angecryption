@@ -9,7 +9,7 @@ This tool allows to change the format (pdf, png, jpg ..) with an **decryption** 
 
 ### __Installation__
 
-```
+```bash
 git clone https://github.com/1sis/Angecryption
 
 cd Angecryption
@@ -19,7 +19,7 @@ pip3 install -r requirement.txt
 
 ### __Example__
 
-```
+```bash
 python3 angecryption.py -f input.png -k [KEY] -i [IV] -o flag
 ```
 
