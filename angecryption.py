@@ -27,10 +27,10 @@ def banner():
 # Arguments function
 def parseArgs():
     parser = argparse.ArgumentParser(description='This tool allows to change the format (pdf, png, jpg ..) with an decryption by block with AES Mode CBC')
-    parser.add_argument("-f", "--file", help="file input", required=True)
-    parser.add_argument("-k", "--key", help="Angecryption Key", required=True)
-    parser.add_argument("-o", "--output", help="Output file", required=True)
-    parser.add_argument("-i", "--iv", help="initialize vector", required=True)
+    parser.add_argument("-f", "--file",   help="file input",        required=True)
+    parser.add_argument("-k", "--key",    help="Angecryption Key",  required=True)
+    parser.add_argument("-o", "--output", help="Output file",       required=True)
+    parser.add_argument("-i", "--iv",     help="initialize vector", required=True)
     return parser.parse_args()
 
 def main(options):
